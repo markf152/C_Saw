@@ -1,0 +1,21 @@
+- Load Flight List Data from file
+	- present as menu
+
+- Get desired flight number from user
+
+- Load Flight Data from file
+	- create structure (w/ malloc) based on number of seats on that plane
+
+- menus . . .
+	- pickFlight
+	- flightMenu
+
+- To CREATE FILE NAME for each flight . . .
+	- use sprintf() for adding integer to a string (and then to a file name)
+	http://www.tutorialspoint.com/c_standard_library/c_function_sprintf.htm
+
+	- concatenate string . . .
+		- strcat(), but MAKE SURE to control the lengths (avoid buffer overflow)
+
+
+
